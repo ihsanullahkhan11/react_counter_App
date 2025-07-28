@@ -1,15 +1,17 @@
 import React from 'react'
 import Counter, { ColorBox } from './Counter'
 
-import './App.css'
+
 import Input from './Input'
+import ControlledComponent from './Controlled_component'
 
 function App() {
   return (
     <div>
-      <Counter  />
+      {/* <Counter  />
       <ColorBox />
-      <Input />
+      <Input /> */}
+      <ControlledComponent />
     </div>
   )
 }
