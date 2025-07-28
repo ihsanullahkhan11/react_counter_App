@@ -21,4 +21,35 @@ function Counter() {
   )
 }
 
+
+ export function ColorBox() {
+  const [bgColor, setBgColor] = useState('white');
+
+  const changeColor = () => {
+    setBgColor("red");
+  };
+
+  return (
+    <div>
+      <button 
+      style={{
+      
+      backgroundColor: bgColor,
+      borderRadius: "10px",
+      color: 'black'
+    }}
+      
+      
+      
+      onClick={changeColor}>Change Color</button>
+    </div>
+  );
+}
+
+ 
+
+
+
+
+
 export default Counter
