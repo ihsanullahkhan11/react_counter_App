@@ -4,14 +4,12 @@ import Counter, { ColorBox } from './Counter'
 
 import Input from './Input'
 import ControlledComponent from './Controlled_component'
+import Skilles from './Skilles'
 
 function App() {
   return (
     <div>
-      {/* <Counter  />
-      <ColorBox />
-      <Input /> */}
-      <ControlledComponent />
+    <Skilles />
     </div>
   )
 }
